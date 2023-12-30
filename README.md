@@ -1,1 +1,1 @@
-# jessy
+# jessy - chat assistant
