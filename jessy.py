@@ -149,6 +149,8 @@ while True:
     elif cmd == "!dialog":
         while True:
             mes = input()
+            if mes == "пока":
+                break
             asyncio.run(run_all(mes))
 
     elif cmd == "!random":
